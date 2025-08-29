@@ -2,3 +2,35 @@ html {
   height: 100%;
   width: 100%;
 }
+/* Spiderman Navbar Styles */
+nav {
+  background-color: #d32f2f; /* Spiderman red */
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullets */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Arrange items in a row */
+  justify-content: center; /* Center items */
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #1565c0; /* Spiderman blue */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+nav ul li a:hover {
+  background-color: #212121; /* Dark for contrast */
+  color: #ffd600; /* Spiderman yellow accent */
+}
